@@ -1,0 +1,48 @@
+/*
+MY COLOR PALETTE
+Color 1 - #BEEF9E
+Color 2 - #A6C36F
+Color 3 - #828C51
+Color 4 - #335145
+Color 5 - #1E352F
+*/
+
+
+
+.body{
+  background-color: #BEEF9E; /* COLOR 1 */
+    text-align: center
+}
+
+.contact-button{
+  background-color: #A6C36F; /* COLOR 2 */
+    font-family: "Gowun Batang", serif;
+    font-size:larger;
+    font-weight:bold;
+    width:200px;
+    padding: 20px;
+    color: "black"; 
+margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+    
+    
+}
+
+.contact-button:hover {
+  background-color:#828C51; /* COLOR 3 */
+}
+
+
+h1 {
+    font-family: "Gowun Batang", serif;
+
+    
+}
+
+h2 {
+    font-family: "Gowun Batang", serif;
+    
+}
+
