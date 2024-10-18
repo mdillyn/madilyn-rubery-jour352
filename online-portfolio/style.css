@@ -1,45 +1,106 @@
+/*
+MY COLOR PALETTE
+Color 1 - #BEEF9E
+Color 2 - #A6C36F
+Color 3 - #828C51
+Color 4 - #335145
+Color 5 - #1E352F
+*/
+
 @media {
+    body {
+        background-color: #a6c36f;
+    }
 
-h1 {
-    font-family: "Arvo", serif;
-    font-size: 50px;
-    margin-bottom: 20px
+    h1 {
+        font-family: "Arvo", serif;
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+        margin-top: 50px;
+    }
+
+    .container-fluid {
+        font-family: "Arvo", serif;
+    }
+
+    #contact {
+        font-family: "Arvo", serif;
+        background-color: #daeeb6;
+        font-size: medium;
+        width: 200px;
+        padding: 20px;
+        color: "black";
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-left: 25px;
+    }
+
+    #contact:hover {
+        background-color: #828c51;
+    }
+
+    img {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        position: realtive;
+        left: 50px;
+    }
+
+    #navigation {
+        background-color: #daeeb6;
+        text-align: center;
+        margin-top: 95px;
+        margin-bottom: 100px;
+    }
+
+    #navigation a {
+        color: #1e352f;
+    }
+
+    #sections {
+        margin-top: 35px;
+        background-color: #a6c36f;
+    }
+
+    .jobtitle {
+        margin-top: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .highlight {
+        color: #e7f5cd;
+    }
+
+    .skills {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .education {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .descrip {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .experi {
+        font-weight: bold;
+    }
 }
 
-h2 {
-    font-family: "Arvo", serif;
-    margin-bottom: 20px
-}
-
-contact.button{
-     font-family: "Arvo", serif;
-
-}
-
-img {
-    width:100%;
-    border: 3px solid black;
-    padding: 20px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-
-}
-
-#navigation {
-    background-color:darkseagreen;
-    text-align: center
-}
-
-.jobtitle{
-    font-weight:bold;
-    text-transform: uppercase;
-   
-}
-}
 @media (min-width: 576px) {
     h1 {
-        font-size: 120px;
+        font-size: 65px;
     }
-    
-}
 
+    img {
+        width: 400px;
+        margin-left: 145px;
+    }
+}
