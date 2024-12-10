@@ -1,133 +1,154 @@
- #topper{
-    background-image: url(pillpile.jpeg);
-  background-size:100%;
-     width:100%;
- background-position:default;
-  
-   
-}
+@media {
+    #topper {
+        background-image: url(pillpile.jpeg);
+        background-size: 100%;
+        width: 100%;
+        height: 550px;
+        background-position: default;
+    }
 
-    
-body{
-    background-color: floralwhite;
-}
+    body {
+        background-color: floralwhite;
+    }
 
-.flourish-embed{
-    margin-top:40px;
-    margin-bottom:40px;
-}
+    .flourish-embed {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 
+    h1 {
+        font-family: "Wittgenstein", serif;
+        margin: 210px;
+        background-color: whitesmoke;
+        padding: 13px;
+        border-radius: 15px;
+        font-size: 25px;
+    }
 
-h1{
-    font-family:"Wittgenstein", serif;
-    margin:150px;
-    background-color:whitesmoke;
-    padding:12px;
-    border-radius:15px;
-    font-size:25px;
-  
-}
-
-h3{
-    font-weight:bolder;
-    margin-top: 40px;
-    margin-bottom:20px;
-    color:chocolate;
-    background-color: antiquewhite;
-  padding-left: 100px;
-    padding-right: 100px;
-text-align: center;
-    border:double, chocolate;
-}
-
-#content{
-    width:55%;
-    margin:auto;
-    margin-top:40px;
-    font-family:"Wittgenstein", serif;
-    font-size: 18px;
-    
-}
-
-img{
-   width: 100%;
-    align-content: center;
-    margin: 20px 0px 20px 0px;
-    border:double, chocolate;
-    
-}
-
-.caption{
-    font-size: 10px;
-      font-family:"Wittgenstein", serif;
-    margin-bottom: 25px;
-    
-}
-
-
-.byline{
-      font-family:"Wittgenstein", serif;
-    font-size: smaller;
+    h3 {
+        font-weight: bolder;
+        margin-top: 40px;
+        margin-bottom: 20px;
         color: chocolate;
+        background-color: antiquewhite;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+        border: double, chocolate;
+    }
+
+    #content {
+        width: 55%;
+        margin: auto;
+        margin-top: 40px;
+        font-family: "Wittgenstein", serif;
+        font-size: 18px;
+    }
+
+    img {
+        width: 100%;
+        align-content: center;
+        margin: 20px 0px 20px 0px;
+        border: double, chocolate;
+    }
+
+    .caption {
+        font-size: 10px;
+        font-family: "Wittgenstein", serif;
+        margin-bottom: 15px;
+    }
+
+    .byline {
+        font-family: "Wittgenstein", serif;
+        font-size: smaller;
+        color: chocolate;
+    }
+
+    .date {
+        font-family: "Wittgenstein", serif;
+        font-size: smaller;
+    }
+
+    .creds {
+        margin-top: 50px;
+        font-size: smaller;
+        color: chocolate;
+    }
+
+    .credit {
+        color: chocolate;
+        font-weight: bold;
+    }
+
+    .pullquote {
+        border: 10px solid chocolate;
+        padding: 30px;
+        text-align: center;
+        line-height: 1.1;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .pullquote2 {
+        border: 10px solid chocolate;
+        padding: 30px;
+        text-align: center;
+        line-height: 1.1;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .quote {
+        font-size: 50px;
+    }
+
+    .quote2 {
+        font-size: 40px;
+    }
+
+    .attrib {
+        font-size: 15px;
+    }
+
+    attrib2 {
+        font-size: 15px;
+    }
 }
 
-.date{
-       font-family:"Wittgenstein", serif;
-     font-size: smaller;
-         
+@media (max-width: 576px) {
+    h1 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    content {
+        font-size: 14px;
+    }
+
+    .quote {
+        font-size: 16px;
+    }
+
+    .attrib {
+        font-size: 12px;
+    }
+
+    .quote2 {
+        font-size: 10px;
+    }
+
+    attrib2 {
+        font-size: 10px;
+    }
+
+    #topper {
+        background-size: 70%;
+        height: 400px;
+    }
+
+    h3 {
+        font-size: 16px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
-
-.creds{
-    margin-top: 50px;
-    font-size: smaller;
-    color:chocolate;
-}
-
-.credit{
-    color: chocolate;
-    font-weight:bold;
-}
-
-
-
-.pullquote{
-    border:10px solid chocolate;
-    padding:30px;
-    text-align: center;
-    line-height:1.1;
-     margin-top:30px;
-    margin-bottom:30px;
-}
-
-.pullquote2{
-    border:10px solid chocolate;
-    padding:30px;
-    text-align: center;
-    line-height:1.1;
-    margin-top:40px;
-    margin-bottom:40px;
-    
-}
-
-.quote{
-    font-size:50px;
-}
-
-.quote2{
-    font-size:40px;
-}
-
-.attrib{
-    font-size:15px;
-}
-
-attrib2{
- font-size:15px;   
-}
-
-
-@media (min-width: 576px) {
-}
-
-
-
