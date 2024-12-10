@@ -1,21 +1,100 @@
  #topper{
     background-image: url(pillpile.jpeg);
-    background-size:cover;
- background-position: center;
+  background-size:100%;
+     width:100%;
+ background-position:default;
+  
+   
+}
+
     
-    
-    
+body{
+    background-color: floralwhite;
+}
+
+.flourish-embed{
+    margin-top:40px;
+    margin-bottom:40px;
 }
 
 
 h1{
-    font-family:TImes New Roman, Times, Serif;
+    font-family:"Wittgenstein", serif;
     margin:150px;
     background-color:whitesmoke;
     padding:12px;
     border-radius:15px;
     font-size:25px;
   
+}
+
+h3{
+    font-weight:bold;
+    margin-top: 30px;
+    margin-bottom:20px;
+}
+
+#content{
+    width:60%;
+    margin:auto;
+    margin-top:20px;
+    font-family:"Wittgenstein", serif;
+    
+}
+
+img{
+   width: 100%;
+    align-content: center;
+    margin: 20px 0px 20px 0px;
+    
+}
+
+.caption{
+    font-size: 10px;
+      font-family:"Wittgenstein", serif;
+}
+
+.byline{
+      font-family:"Wittgenstein", serif;
+    font-size: smaller;
+        color: chocolate;
+}
+
+.date{
+       font-family:"Wittgenstein", serif;
+     font-size: smaller;
+         
+}
+
+.creds{
+    margin-top: 50px;
+    font-size: smaller;
+    color:chocolate;
+}
+
+.credit{
+    color: chocolate;
+    font-weight:bold;
+}
+
+.pullquote{
+    border:10px solid chocolate;
+    padding:30px;
+    text-align: center;
+    line-height:1.1;
+    
+}
+
+.quote{
+    font-size:50px;
+}
+
+.attrib{
+    font-size:12px;
+}
+
+
+@media (min-width: 576px) {
 }
 
 
