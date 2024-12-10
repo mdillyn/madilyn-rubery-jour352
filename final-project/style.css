@@ -29,16 +29,23 @@ h1{
 }
 
 h3{
-    font-weight:bold;
-    margin-top: 30px;
+    font-weight:bolder;
+    margin-top: 40px;
     margin-bottom:20px;
+    color:chocolate;
+    background-color: antiquewhite;
+  padding-left: 100px;
+    padding-right: 100px;
+text-align: center;
+    border:double, chocolate;
 }
 
 #content{
-    width:60%;
+    width:55%;
     margin:auto;
-    margin-top:20px;
+    margin-top:40px;
     font-family:"Wittgenstein", serif;
+    font-size: 18px;
     
 }
 
@@ -46,13 +53,17 @@ img{
    width: 100%;
     align-content: center;
     margin: 20px 0px 20px 0px;
+    border:double, chocolate;
     
 }
 
 .caption{
     font-size: 10px;
       font-family:"Wittgenstein", serif;
+    margin-bottom: 25px;
+    
 }
+
 
 .byline{
       font-family:"Wittgenstein", serif;
@@ -77,11 +88,24 @@ img{
     font-weight:bold;
 }
 
+
+
 .pullquote{
     border:10px solid chocolate;
     padding:30px;
     text-align: center;
     line-height:1.1;
+     margin-top:30px;
+    margin-bottom:30px;
+}
+
+.pullquote2{
+    border:10px solid chocolate;
+    padding:30px;
+    text-align: center;
+    line-height:1.1;
+    margin-top:40px;
+    margin-bottom:40px;
     
 }
 
@@ -89,8 +113,16 @@ img{
     font-size:50px;
 }
 
+.quote2{
+    font-size:40px;
+}
+
 .attrib{
-    font-size:12px;
+    font-size:15px;
+}
+
+attrib2{
+ font-size:15px;   
 }
 
 
